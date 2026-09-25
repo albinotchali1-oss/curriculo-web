@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+:root{
+
+  --cor1: #4d6078;
+  --cor2: #22344c;
+  --cor3: #0F141A;  
+  --fundo-principal:  #22344c ;
+  --texto:            #f1f8f1 ;
+  --texto-inverso:    #3d5b83 ;
+  --destaque:         #0F141A;
+  --destaque-inverso: #2f4869 ;
+  --fundo-card:       #253952;
+    
+}
+
+hr{
+    height: 5px;
+    border: none;
+    background-color: var(--texto-inverso);
+    margin: 20px 14px;
+}
+
+article.educacao p.instituto{
+    color: rgb(5, 152, 226);
+}
+article.educacao ul{
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+}
+article.educacao ul li{
+    background-color: var(--destaque-inverso);
+    padding: 14px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px var(--destaque);
+    border-left: 5px solid var(--cor1);
+   transition: border-left-width 0.5s, border-color 0.5s;
+}
+
+article.educacao ul li:hover{
+  border-left-width: 15px;
+  border-color: var(--destaque);
+  cursor: pointer;
+}

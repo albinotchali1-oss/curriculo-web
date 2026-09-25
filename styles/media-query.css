@@ -14,19 +14,7 @@
     section#detalhes{
         grid-column: 3 / 4;
     }
-    #projeto-container .projeto{
-        flex-direction: row-reverse;
-        justify-content: space-between;
-    }
-    #projeto-container .projeto-info{
-        max-width: 80%;
-    }
-    #projeto-container .foto{
-        max-width: 20%;
-        aspect-ratio: 1/1;
-        max-height: 200px;
-    }
-    article.educacao ul{
+    article#educacao ul{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }

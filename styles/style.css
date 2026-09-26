@@ -130,4 +130,5 @@ footer a{
 }
 footer a:hover{
   color: var(--destaque-inverso);
+  text-shadow: #0F141A 1px 1px 2px;
 }

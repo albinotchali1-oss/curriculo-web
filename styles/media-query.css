@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 992px){
 
     main{
         grid-template-columns: auto 300px 1fr auto;
@@ -20,6 +22,53 @@
     }
     article#cursos ul{
         display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    main{
+        grid-template-columns: auto 300px 1fr auto;
+    }
+    section#ficha{
+        grid-column: 2 / 3;
+        height: fit-content;
+        position: sticky;
+        top: 65px;
+    }
+    section#detalhes{
+        grid-column: 3 / 4;
+    }
+    article#educacao ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    article#cursos ul{
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 1200px){
+    main{
+        grid-template-columns: auto 300px 1fr auto;
+    }
+    section#ficha{
+        grid-column: 2 / 3;
+        height: fit-content;
+        position: sticky;
+        top: 65px;
+    }
+    section#detalhes{
+        grid-column: 3 / 4;
+    }
+    article#educacao ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    article#cursos ul{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
     }
 }

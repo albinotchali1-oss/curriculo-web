@@ -20,6 +20,18 @@
     
 }
 
+ body.claro{
+  --cor1: #3d5b83;
+  --cor2: #3d5b83;
+  --cor3: #0F141A; 
+    --fundo-principal: #f5f5f5;
+    --texto: #222222;
+    --texto-inverso: #ffffff;
+    --destaque: #0077ff;
+    --destaque-inverso: #c8e2f7db;
+    --fundo-card: #ffffff;
+}
+
 body{
   width: 100vw; min-height: 100vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;

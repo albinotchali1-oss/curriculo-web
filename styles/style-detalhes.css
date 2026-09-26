@@ -96,7 +96,7 @@ article#competencias, div.carrossel{
       display: flex;
       gap: 20px;
       width: max-content;
-      animation: rolar 90s linear infinite;
+      animation: rolar 60s linear infinite;
       & div.card{
         width: 300px; 
         text-align: center;

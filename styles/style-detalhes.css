@@ -108,20 +108,13 @@ article#competencias, div.carrossel{
           object-fit: cover;
           display: block;
         }
-
-        &  p{
-          margin-top: 10px;
-          font-size: 18px;
-          color: var(--texto);
-          width: 100%;
-          text-align: center;
-          white-space: normal;
-          word-wrap: break-word;
-        }
       }
     }
   }
 }
+
+
+
 .trilha:hover{
   animation-play-state: paused;
 }
